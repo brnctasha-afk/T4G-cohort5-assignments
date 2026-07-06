@@ -3,3 +3,5 @@
 2.A client requests information, while a server provides it.
 Client: Google Chrome.
 Server: Google's web server.
+3. DNS stands for Domain Name System. It changes website names like google.com into IP addresses that computers can understand. Without DNS, we would have to remember long numbers instead of simple website names.
+4.A firewall and a load balancer are both part of how the web works. What does each one do? How are they different?

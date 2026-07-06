@@ -1,0 +1,5 @@
+1. When I type a website address and press Enter, my browser asks the DNS for the website's IP address. The request goes to the server, which sends the webpage back to my browser.
+
+2.A client requests information, while a server provides it.
+Client: Google Chrome.
+Server: Google's web server.

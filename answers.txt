@@ -5,3 +5,6 @@ Client: Google Chrome.
 Server: Google's web server.
 3. DNS stands for Domain Name System. It changes website names like google.com into IP addresses that computers can understand. Without DNS, we would have to remember long numbers instead of simple website names.
 4.A firewall and a load balancer are both part of how the web works. What does each one do? How are they different?
+5. A web server mainly delivers web pages, images, and other files to users. An application server handles the business logic of the application, such as processing user requests and communicating with the database. Backend developers work more with the application server because it is responsible for how the application functions behind the scenes.
+6.The client does not connect directly to the database because it would expose sensitive data and create security risks. The application server checks requests, verifies users, and controls what information can be accessed. This keeps the system more secure and organized.
+7. A university department page is more likely to be a static website because the information does not change very often. An MTN MoMo account page is dynamic because it displays personal account information like my balance and transaction history, which changes regularly.

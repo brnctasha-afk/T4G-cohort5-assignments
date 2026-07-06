@@ -8,3 +8,10 @@ Server: Google's web server.
 5. A web server mainly delivers web pages, images, and other files to users. An application server handles the business logic of the application, such as processing user requests and communicating with the database. Backend developers work more with the application server because it is responsible for how the application functions behind the scenes.
 6.The client does not connect directly to the database because it would expose sensitive data and create security risks. The application server checks requests, verifies users, and controls what information can be accessed. This keeps the system more secure and organized.
 7. A university department page is more likely to be a static website because the information does not change very often. An MTN MoMo account page is dynamic because it displays personal account information like my balance and transaction history, which changes regularly.
+8.Frontend is what users see, while backend handles the server and database. The backend checks passwords because it is more secure.
+9.Backend developers use the command line to manage files, run programs, and work with servers more efficiently.
+10.An absolute path shows the full file location.
+Example: C:\Users\Bernice\answers.txt
+A relative path shows the location from the current folder.
+Example: answers.txt
+11.The command line is faster, works on remote servers, and is an important skill for backend developers.

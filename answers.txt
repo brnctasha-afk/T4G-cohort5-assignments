@@ -15,3 +15,82 @@ Example: C:\Users\Bernice\answers.txt
 A relative path shows the location from the current folder.
 Example: answers.txt
 11.The command line is faster, works on remote servers, and is an important skill for backend developers.
+                         WEB REQUEST JOURNEY
+
+Request →
++---------+
+| Client  |
+| Sends an HTTP request to access a website or application. |
++---------+
+     |
+     v
++---------+
+| DNS     |
+| Translates the domain name into the server's IP address. |
++---------+
+     |
+     v
++------------+
+| Firewall   |
+| Filters and blocks unauthorized or malicious traffic. |
++------------+
+     |
+     v
++---------------+
+| Load Balancer |
+| Distributes incoming requests across available servers. |
++---------------+
+     |
+     v
++-------------+
+| Web Server  |
+| Receives the request and serves static content or forwards it. |
++-------------+
+     |
+     v
++-------------------+
+| Application Server|
+| Processes business logic and handles dynamic requests. |
++-------------------+
+     |
+     v
++-----------+
+| Database  |
+| Stores and retrieves the requested data. |
++-----------+
+
+Response ←
++-----------+
+| Database  |
+| Returns the requested data. |
++-----------+
+     ^
+     |
++-------------------+
+| Application Server|
+| Processes the data and prepares the response. |
++-------------------+
+     ^
+     |
++-------------+
+| Web Server  |
+| Sends the response back to the client. |
++-------------+
+     ^
+     |
++---------------+
+| Load Balancer |
+| Routes the response through the correct path. |
++---------------+
+     ^
+     |
++------------+
+| Firewall   |
+| Allows only safe outbound traffic to pass. |
++------------+
+     ^
+     |
++---------+
+| Client  |
+| Receives and displays the requested web page or data. |
++---------+

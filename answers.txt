@@ -102,3 +102,4 @@ A relative path is the location of a file or folder based on the current directo
 Example: Documents\project\index.html
 11.File Explorer and Finder are useful for basic tasks, but the CLI is faster, more efficient, and required for many backend development tasks, such as managing files, running programs, and working on servers.
 12.~ means the user's home directory, while $ indicates the terminal is ready for you to enter a command.
+cd 
